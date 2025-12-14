@@ -7,7 +7,7 @@
 A high-performance, multi-threaded automation tool designed for **Mention Network**. This bot utilizes advanced AI models (Gemini/Groq) to generate organic, context-aware conversations, manage daily quests, and maximize point farming efficiency.
 
 > **🔒 Security Note:** This project includes advanced security features and obfuscation methods to protect core logic.
-![alt text](image.png)
+![alt text](images.png)
 
 ---
 
